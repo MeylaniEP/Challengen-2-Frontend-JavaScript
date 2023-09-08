@@ -1,0 +1,76 @@
+SOAL  1
+Buatlah sebuah function dengan nama changeWord
+yang berfungsi untuk menggantikan sebuah kata
+didalam sebuah kalimat.
+Function ini akan menerima 3 parameter, yaitu :
+1. selectedText => Kata yang terdapat pada sebuah
+kalimat dan merupakan kata yang akan diganti
+nantinya.
+2. changedText => Kata yang akan menjadi pengganti
+pada sebuah kalimat nantinya.
+3. text => Sebuah kalimat.
+
+
+
+SOAL 2
+Buatlah sebuah function yang berfungsi mendeteksi
+apakah sebuah angka termasuk angka genap atau
+ganjil.
+Function ini akan menerima satu parameter, yaitu :
+1. givenNumber ⇒ angka yang akan dicheck oleh
+function
+Kriteria function yang harus kamu buat:
+• Beri nama function tersebut checkTypeNumber
+• Menggunakan arrow function
+• function ini harus return data dengan tipe string
+• function ini harus return data berupa GENAP ATAU
+GANJIL
+• function ini harus memiliki validasi terhadap tipe data
+dari parameter yang diterima.
+
+SOAL 3
+Buatlah sebuah function yang berfungsi untuk mendapatkan angka terbesar kedua dari sebuah array.
+Misal diberikan sebuah array yang terdiri dari beberapa angka [2,3,5,6,6,4], berdasarkan data dari array tersebut
+dapat kita simpulkan bahwasanya angka terbesar dari array tersebut adalah 6, angka kedua terbesar adalah 5,
+dan angka ketiga terbesar adalah 4. Maka dari itu function yang akan kamu buat ini akan me-return angka
+kedua terbesar pada array yang telah diberikan, yaitu angka 5.
+Function ini akan menerima satu parameter, yaitu:
+1. dataNumbers ⇒ Array yang berisi beberapa angka
+Kriteria function:
+1. Beri nama function tersebut getAngkaTerbesarKedua
+2. function ini harus return data dengan tipe number
+3. function ini harus return data angka terbesar kedua dari angka-angka yang diberikan di dalam array
+4. function ini harus memiliki validasi terhadap tipe data dari parameter yang diterima.
+
+SOAL
+Hari ini Toko Pak Aldi berhasil menjual banyak sepatu.
+Pada gambar disamping terdapat data sepatu-sepatu
+yang terjual dari toko Pak Aldi dalam bentuk array of
+object.
+Tugas kamu adalah membuat sebuah function yang
+berfungsi membantu Pak Aldi untuk menghitung total
+seluruh sepatu yang terjual.
+Function ini akan menerima satu parameter, yaitu:
+1. dataPenjualan ⇒ Array yang berisi beberapa object,
+object terdiri dari properti yang memiliki informasi
+penjualan product.
+Kriteria function:
+1. Beri nama function tersebut getTotalPenjualan
+2. function ini harus return data dengan tipe number
+3. function ini harus return total penjumlahan dari
+properti totalTerjual pada data yang diberikan
+4. function ini harus memiliki validasi terhadap tipe
+data dari parameter yang diterima.
+
+SOAL
+Hari ini Toko buku milik Ibu Daniela berhasil menjual banyak sekali
+buku-buku novel. Gambar disamping adalah data penjualan
+buku-buku novel yang dijual di Toko buku milik Ibu Daniela, dalam
+format array of object.
+Tugas kamu adalah membuat sebuah function yang berfungsi
+membantu Ibu Daniela untuk mendapatkan informasi berupa Total
+Keuntungan, Total Modal, Produk Buku Terlaris, Penulis Buku
+Terlaris dan Persentase Keuntungan dari data penjualan yang telah
+disediakan diatas.
+Function yang kamu buat ini akan me-return sebuah data yang
+berbentuk sebuah object yang dari beberapa properti.
